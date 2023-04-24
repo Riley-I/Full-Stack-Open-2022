@@ -4,7 +4,7 @@ participant server
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
 
-     Note right of browser: The Content-Type header of the request tells the server that the included data is represented in JSON format. Without this header, the server would not know how to correctly parse the data.
+    Note right of browser: The Content-Type header of the request tells the server that the included data is represented in JSON format. Without this header, the server would not know how to correctly parse the data.
 
     activate server
     server-->>browser: The server responds with status code 201 created
