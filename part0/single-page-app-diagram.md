@@ -1,9 +1,3 @@
-### SINGLE PAGE APPLICATION (SPA)
-
-- SPA-style websites don't fetch all of their pages separately from the server like our sample application does. They have only one HTML page fetched from the server and the contents are manipulated with JavaScript that executes in the browser.
-
-Create a diagram depicting the situation where the user goes to the single-page app version of the notes app at https://studies.cs.helsinki.fi/exampleapp/spa.
-
 sequenceDiagram
 participant browser
 participant server
