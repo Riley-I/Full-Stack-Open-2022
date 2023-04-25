@@ -4,14 +4,15 @@ title: 0.6: New note in Single page app diagram
 
 This diagram shows what happens where a user goes to the single-page app version of the notes app at https://studies.cs.helsinki.fi/exampleapp/spa.
 ...
-{{< mermaid >}}
+
+```mermaid
 sequenceDiagram
-participant browser
-participant server
-browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa
-activate server
-server-->>browser: the html file
-deactivate server
+    participant browser
+    participant server
+    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa
+    activate server
+    server-->>browser: the html file
+    deactivate server
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
     activate server
@@ -31,5 +32,4 @@ deactivate server
     deactivate server
 
     Note right of browser: The browser executes the callback function that renders the notes
-
-{{< /mermaid >}}
+```

@@ -4,10 +4,11 @@ title: 0.6: New note in Single page app diagram
 
 This diagram shows what happens where a user creates a new note using the single-page version of the app.
 ...
-{{< mermaid >}}
-sequenceDiagram
-participant browser
-participant server
+
+```mermaid
+    sequenceDiagram
+    participant browser
+    participant server
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
 
@@ -21,4 +22,4 @@ participant server
 
     Note right of browser: The SPA version of the app uses the JavaScript code it got from the server originally instead of sending the form data (prevents a new GET request)
 
-{{< /mermaid >}}
+```
