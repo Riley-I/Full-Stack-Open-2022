@@ -1,4 +1,4 @@
-### title: 0.6: New note in Single page app diagram
+### 0.6: New note in Single page app diagram
 
 This diagram shows what happens where a user creates a new note using the single-page version of the app.
 

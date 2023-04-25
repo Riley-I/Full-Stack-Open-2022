@@ -1,4 +1,4 @@
-### title: 0.4: New note diagram
+### 0.4: New note diagram
 
 This diagram shows what happens where a user creates a new note on the page https://studies.cs.helsinki.fi/exampleapp/notes by writing something into the text field and clicking the submit button.
 
